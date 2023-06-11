@@ -1,0 +1,116 @@
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'IranSans';
+  background: #8ecae6;
+  direction: rtl;
+  text-align: center;
+}
+
+.App{
+  background: #219ebc;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 700px;
+  color: #000;
+}
+
+.navbar{
+  padding: 10px 20px;
+  text-align: center;
+  background: #fb8500;
+}
+
+.navbar h1{
+  margin: 10px 0;
+}
+
+.book-list{
+  margin: 20px;
+}
+
+.book-list ul{
+  padding: 0;
+  list-style-type: none;
+}
+
+.book-list li{
+  background: #ffb703;
+  border-radius: 4px;
+  padding: 10px;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+.book-list .title{
+  font-weight: bold;
+  color: #000;
+  font-size: 1.2em;
+}
+
+.book-list .author{
+  color: #000;
+  font-size: 0.9em;
+}
+.book-list .price{
+  color: #000;
+  font-size: 0.9em;
+}
+
+.empty{
+  margin: 20px;
+  text-align: center;
+}
+form{
+  padding: 20px;
+}
+
+/*input[type='text']{
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin: 6px 0;
+  background: #023047;
+  color: #fff;
+  border: 0;
+}
+input[type='number']{
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin: 6px 0;
+  background: #023047;
+  color: #fff;
+  border: 0;
+}*/
+
+input[type='submit']{
+  padding: 6px 20px;
+  display: block;
+  margin: 10px auto;
+  background: #eee;
+  border: 0;
+  border-radius: 8px;
+}
+input[type='button']{
+  padding: 6px 20px;
+  display: block;
+  margin: 10px auto;
+  background: #eee;
+  border: 0;
+  border-radius: 8px;
+}
+button{
+  padding: 6px 20px;
+  display: block;
+  margin: 10px auto;
+  background: rgb(167, 47, 111);
+  color : white;
+  border: 0;
+  border-radius: 8px;
+}
